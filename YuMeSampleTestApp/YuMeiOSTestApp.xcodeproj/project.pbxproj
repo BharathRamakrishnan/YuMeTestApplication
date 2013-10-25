@@ -1,0 +1,1238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5B1F9317D71861002F8F7A /* VideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B1F9017D7185F002F8F7A /* VideoPlayerController.m */; };
+		8D5B1F9417D71861002F8F7A /* YuMeMPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B1F9217D71860002F8F7A /* YuMeMPlayerController.m */; };
+		8E621725181017D10080DDB0 /* YuMeSDKTestData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8E621724181017D10080DDB0 /* YuMeSDKTestData.csv */; };
+		8E627E6818113FB100D56A81 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E4EB417E827BE0013428E /* GHUnitIOS.framework */; };
+		8E7E4E9B17E8276C0013428E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD07B21723DB4600B770FF /* UIKit.framework */; };
+		8E7E4E9C17E8276C0013428E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD07B41723DB4600B770FF /* Foundation.framework */; };
+		8E7E4E9D17E8276C0013428E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD07B61723DB4600B770FF /* CoreGraphics.framework */; };
+		8E7E4EA317E8276C0013428E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E7E4EA117E8276C0013428E /* InfoPlist.strings */; };
+		8E7E4EA517E8276C0013428E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E4EA417E8276C0013428E /* main.m */; };
+		8E7E4EAB17E8276C0013428E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7E4EAA17E8276C0013428E /* Default.png */; };
+		8E7E4EAD17E8276C0013428E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7E4EAC17E8276C0013428E /* Default@2x.png */; };
+		8E7E4EAF17E8276C0013428E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7E4EAE17E8276C0013428E /* Default-568h@2x.png */; };
+		8E7E4EB517E827BE0013428E /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E4EB417E827BE0013428E /* GHUnitIOS.framework */; };
+		8E7E4EBD17E829220013428E /* libical.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E4EB817E829220013428E /* libical.a */; };
+		8E7E4EBE17E829220013428E /* libYuMeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E4EB917E829220013428E /* libYuMeSDK.a */; };
+		8E7E4EC117E8292E0013428E /* libYuMeSurvey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E4EC017E8292E0013428E /* libYuMeSurvey.a */; };
+		8E7E4ECA17E8297C0013428E /* YuMeSdkUnitTestInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E4EC317E8297C0013428E /* YuMeSdkUnitTestInit.m */; };
+		8E7E4ECB17E8297C0013428E /* YuMeSdkUnitTestInitAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E4EC517E8297C0013428E /* YuMeSdkUnitTestInitAd.m */; };
+		8E7E4ECC17E8297C0013428E /* YuMeSdkUnitTestModifyParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E4EC717E8297C0013428E /* YuMeSdkUnitTestModifyParams.m */; };
+		8E7E4ECD17E8297C0013428E /* YuMeSdkUnitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E4EC917E8297C0013428E /* YuMeSdkUnitUtils.m */; };
+		8E7E4ED217E82AE50013428E /* VideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B1F9017D7185F002F8F7A /* VideoPlayerController.m */; };
+		8E7E4ED317E82AE50013428E /* YuMeMPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B1F9217D71860002F8F7A /* YuMeMPlayerController.m */; };
+		8E7E4ED417E82AE50013428E /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07D91723DBF600B770FF /* AboutViewController.m */; };
+		8E7E4ED517E82AE50013428E /* AdSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07DB1723DBF600B770FF /* AdSizeViewController.m */; };
+		8E7E4ED617E82AE50013428E /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07DE1723DBF600B770FF /* AppSettings.m */; };
+		8E7E4ED717E82AE50013428E /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07E01723DBF600B770FF /* AppUtils.m */; };
+		8E7E4ED817E82AE50013428E /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07EB1723DBF600B770FF /* DownloadViewController.m */; };
+		8E7E4ED917E82AE50013428E /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07ED1723DBF600B770FF /* LogViewController.m */; };
+		8E7E4EDA17E82AE50013428E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07EF1723DBF600B770FF /* SettingsViewController.m */; };
+		8E7E4EDB17E82AE50013428E /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07F11723DBF600B770FF /* Toast.m */; };
+		8E7E4EDC17E82AE50013428E /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07F31723DBF600B770FF /* VideoView.m */; };
+		8E7E4EDD17E82AE50013428E /* YuMeInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07F51723DBF600B770FF /* YuMeInterface.m */; };
+		8E7E4EDE17E82AE50013428E /* YuMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07C21723DB4600B770FF /* YuMeAppDelegate.m */; };
+		8E7E4EDF17E82AE50013428E /* YuMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07CB1723DB4600B770FF /* YuMeViewController.m */; };
+		8E7E4EE017E82BCC0013428E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD082F1723DD5F00B770FF /* MediaPlayer.framework */; };
+		8E7E4EE117E82BDC0013428E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD082D1723DD5800B770FF /* CFNetwork.framework */; };
+		8E7E4EE217E82BDE0013428E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD082B1723DD4800B770FF /* MobileCoreServices.framework */; };
+		8E7E4EE317E82BE00013428E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08291723DD3000B770FF /* libz.dylib */; };
+		8E7E4EE417E82BE30013428E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08271723DD2900B770FF /* libxml2.dylib */; };
+		8E7E4EE517E82BE50013428E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08251723DD1100B770FF /* SystemConfiguration.framework */; };
+		8E7E4EE617E82BE70013428E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08231723DD0900B770FF /* QuartzCore.framework */; };
+		8E7E4EE717E82BE90013428E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08211723DD0100B770FF /* CoreTelephony.framework */; };
+		8E7E4EE817E82C080013428E /* libYuMeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E4EB917E829220013428E /* libYuMeSDK.a */; };
+		8E7E4EE917E82C0A0013428E /* libical.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E4EB817E829220013428E /* libical.a */; };
+		8E7E4EEA17E82C0D0013428E /* libYuMeSurvey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7E4EC017E8292E0013428E /* libYuMeSurvey.a */; };
+		8E85B23917FA9E9900A8A643 /* result.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E85B23817FA9E9900A8A643 /* result.html */; };
+		8EB8728517E96BD300F0DAA8 /* YuMeSdkUnitTestGetParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8728417E96BD300F0DAA8 /* YuMeSdkUnitTestGetParams.m */; };
+		8EB8728A17E9705D00F0DAA8 /* YuMeSdkUnitTestDeInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8728917E9705C00F0DAA8 /* YuMeSdkUnitTestDeInit.m */; };
+		8EB8728E17E970E800F0DAA8 /* YuMeSdkUnitTestShowAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8728D17E970E800F0DAA8 /* YuMeSdkUnitTestShowAd.m */; };
+		8EB8729217E9718200F0DAA8 /* YuMeSdkUnitTestStartAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8729117E9718200F0DAA8 /* YuMeSdkUnitTestStartAd.m */; };
+		8EB8729617E9722A00F0DAA8 /* YuMeSdkUnitTestStopAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8729517E9722A00F0DAA8 /* YuMeSdkUnitTestStopAd.m */; };
+		8EB8729A17E972CB00F0DAA8 /* YuMeSdkUnitTestGetVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8729917E972CB00F0DAA8 /* YuMeSdkUnitTestGetVersion.m */; };
+		8EB8729E17E973C900F0DAA8 /* YuMeSdkUnitTestSetCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8729D17E973C900F0DAA8 /* YuMeSdkUnitTestSetCache.m */; };
+		8EB872A317E9748500F0DAA8 /* YuMeSdkUnitTestIsCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872A217E9748500F0DAA8 /* YuMeSdkUnitTestIsCache.m */; };
+		8EB872A717E974FC00F0DAA8 /* YuMeSdkUnitTestClearCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872A617E974FB00F0DAA8 /* YuMeSdkUnitTestClearCache.m */; };
+		8EB872AB17E9759B00F0DAA8 /* YuMeSdkUnitTestPauseDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872AA17E9759A00F0DAA8 /* YuMeSdkUnitTestPauseDownload.m */; };
+		8EB872B017E975DE00F0DAA8 /* YuMeSdkUnitTestResumeDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872AF17E975DD00F0DAA8 /* YuMeSdkUnitTestResumeDownload.m */; };
+		8EB872B417E9768D00F0DAA8 /* YuMeSdkUnitTestAbortDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872B317E9768D00F0DAA8 /* YuMeSdkUnitTestAbortDownload.m */; };
+		8EB872B817E976C400F0DAA8 /* YuMeSdkUnitTestGetDownloadStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872B717E976C300F0DAA8 /* YuMeSdkUnitTestGetDownloadStatus.m */; };
+		8EB872BC17E9771F00F0DAA8 /* YuMeSdkUnitTestGetDownloadPercentage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872BB17E9771E00F0DAA8 /* YuMeSdkUnitTestGetDownloadPercentage.m */; };
+		8EB872C017E97AE100F0DAA8 /* YuMeSdkUnitTestClearCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872BF17E97AE000F0DAA8 /* YuMeSdkUnitTestClearCookies.m */; };
+		8EB872C417E97B8100F0DAA8 /* YuMeSdkUnitTestSetAutoPrefetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872C317E97B8000F0DAA8 /* YuMeSdkUnitTestSetAutoPrefetch.m */; };
+		8EB872C817E97BA800F0DAA8 /* YuMeSdkUnitTestIsAutoPrefetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872C717E97BA700F0DAA8 /* YuMeSdkUnitTestIsAutoPrefetch.m */; };
+		8EB872CD17E97CB000F0DAA8 /* YuMeSdkUnitTestSetCBToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB872CC17E97CAE00F0DAA8 /* YuMeSdkUnitTestSetCBToggle.m */; };
+		8EC1A61B17F1C65C00F79C6B /* YuMeSdkUnitTestOthers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC1A61A17F1C65C00F79C6B /* YuMeSdkUnitTestOthers.m */; };
+		8ED7389E180EA0EF000607EA /* YuMeSdkTestCaseInvalidWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7389D180EA0EF000607EA /* YuMeSdkTestCaseInvalidWrapper.m */; };
+		8ED81F111806B11600164620 /* YuMeSdkTestCaseVast2Linear.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED81F101806B11500164620 /* YuMeSdkTestCaseVast2Linear.m */; };
+		8ED81F151806C9DA00164620 /* YuMeSdkTestCaseVast2NonLinear.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED81F141806C9DA00164620 /* YuMeSdkTestCaseVast2NonLinear.m */; };
+		8ED81F191806E22B00164620 /* YuMeSdkTestCaseInvalidXml.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED81F181806E22B00164620 /* YuMeSdkTestCaseInvalidXml.m */; };
+		CD5EFB0717466DC8000765B0 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5EFB0617466DC8000765B0 /* SettingsViewController.xib */; };
+		CDAD07B31723DB4600B770FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD07B21723DB4600B770FF /* UIKit.framework */; };
+		CDAD07B51723DB4600B770FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD07B41723DB4600B770FF /* Foundation.framework */; };
+		CDAD07B71723DB4600B770FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD07B61723DB4600B770FF /* CoreGraphics.framework */; };
+		CDAD07BD1723DB4600B770FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07BB1723DB4600B770FF /* InfoPlist.strings */; };
+		CDAD07BF1723DB4600B770FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07BE1723DB4600B770FF /* main.m */; };
+		CDAD07C31723DB4600B770FF /* YuMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07C21723DB4600B770FF /* YuMeAppDelegate.m */; };
+		CDAD07CC1723DB4600B770FF /* YuMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07CB1723DB4600B770FF /* YuMeViewController.m */; };
+		CDAD07CF1723DB4600B770FF /* YuMeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07CD1723DB4600B770FF /* YuMeViewController_iPhone.xib */; };
+		CDAD07D21723DB4600B770FF /* YuMeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07D01723DB4600B770FF /* YuMeViewController_iPad.xib */; };
+		CDAD07F61723DBF600B770FF /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07D91723DBF600B770FF /* AboutViewController.m */; };
+		CDAD07F71723DBF600B770FF /* AdSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07DB1723DBF600B770FF /* AdSizeViewController.m */; };
+		CDAD07F81723DBF600B770FF /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07DE1723DBF600B770FF /* AppSettings.m */; };
+		CDAD07F91723DBF600B770FF /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07E01723DBF600B770FF /* AppUtils.m */; };
+		CDAD07FA1723DBF600B770FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07E21723DBF600B770FF /* Default-568h@2x.png */; };
+		CDAD07FB1723DBF600B770FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07E31723DBF600B770FF /* Default.png */; };
+		CDAD07FC1723DBF600B770FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07E41723DBF600B770FF /* Default@2x.png */; };
+		CDAD07FD1723DBF600B770FF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07E51723DBF600B770FF /* icon.png */; };
+		CDAD07FE1723DBF600B770FF /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07E61723DBF600B770FF /* icon_57x57.png */; };
+		CDAD07FF1723DBF600B770FF /* one.m4v in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07E71723DBF600B770FF /* one.m4v */; };
+		CDAD08001723DBF600B770FF /* two.m4v in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07E81723DBF600B770FF /* two.m4v */; };
+		CDAD08011723DBF600B770FF /* yume_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAD07E91723DBF600B770FF /* yume_logo.png */; };
+		CDAD08021723DBF600B770FF /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07EB1723DBF600B770FF /* DownloadViewController.m */; };
+		CDAD08031723DBF600B770FF /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07ED1723DBF600B770FF /* LogViewController.m */; };
+		CDAD08041723DBF600B770FF /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07EF1723DBF600B770FF /* SettingsViewController.m */; };
+		CDAD08051723DBF600B770FF /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07F11723DBF600B770FF /* Toast.m */; };
+		CDAD08061723DBF600B770FF /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07F31723DBF600B770FF /* VideoView.m */; };
+		CDAD08071723DBF600B770FF /* YuMeInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD07F51723DBF600B770FF /* YuMeInterface.m */; };
+		CDAD08121723DC3400B770FF /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAD08081723DC3400B770FF /* AboutView.xib */; };
+		CDAD08131723DC3400B770FF /* AdSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAD080A1723DC3400B770FF /* AdSizeViewController.xib */; };
+		CDAD08141723DC3400B770FF /* DownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAD080C1723DC3400B770FF /* DownloadViewController.xib */; };
+		CDAD08151723DC3400B770FF /* LogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAD080E1723DC3400B770FF /* LogViewController.xib */; };
+		CDAD08181723DC6200B770FF /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAD08171723DC6200B770FF /* info.png */; };
+		CDAD08221723DD0100B770FF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08211723DD0100B770FF /* CoreTelephony.framework */; };
+		CDAD08241723DD0900B770FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08231723DD0900B770FF /* QuartzCore.framework */; };
+		CDAD08261723DD1100B770FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08251723DD1100B770FF /* SystemConfiguration.framework */; };
+		CDAD08281723DD2900B770FF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08271723DD2900B770FF /* libxml2.dylib */; };
+		CDAD082A1723DD3000B770FF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD08291723DD3000B770FF /* libz.dylib */; };
+		CDAD082C1723DD4800B770FF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD082B1723DD4800B770FF /* MobileCoreServices.framework */; };
+		CDAD082E1723DD5800B770FF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD082D1723DD5800B770FF /* CFNetwork.framework */; };
+		CDAD08301723DD5F00B770FF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAD082F1723DD5F00B770FF /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D5B1F8F17D7185E002F8F7A /* VideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerController.h; sourceTree = "<group>"; };
+		8D5B1F9017D7185F002F8F7A /* VideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerController.m; sourceTree = "<group>"; };
+		8D5B1F9117D71860002F8F7A /* YuMeMPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeMPlayerController.h; sourceTree = "<group>"; };
+		8D5B1F9217D71860002F8F7A /* YuMeMPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeMPlayerController.m; sourceTree = "<group>"; };
+		8E5BB59317F046C600956F58 /* YuMeSdkConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuMeSdkConstant.h; sourceTree = "<group>"; };
+		8E621724181017D10080DDB0 /* YuMeSDKTestData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YuMeSDKTestData.csv; sourceTree = "<group>"; };
+		8E7E4E9917E8276C0013428E /* YuMeSDKUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuMeSDKUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7E4EA017E8276C0013428E /* YuMeSDKUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YuMeSDKUnitTests-Info.plist"; sourceTree = "<group>"; };
+		8E7E4EA217E8276C0013428E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E7E4EA417E8276C0013428E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E7E4EA617E8276C0013428E /* YuMeSDKUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YuMeSDKUnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		8E7E4EAA17E8276C0013428E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8E7E4EAC17E8276C0013428E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8E7E4EAE17E8276C0013428E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8E7E4EB417E827BE0013428E /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		8E7E4EB717E829220013428E /* ical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ical.h; sourceTree = "<group>"; };
+		8E7E4EB817E829220013428E /* libical.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libical.a; sourceTree = "<group>"; };
+		8E7E4EB917E829220013428E /* libYuMeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYuMeSDK.a; sourceTree = "<group>"; };
+		8E7E4EBA17E829220013428E /* YuMeSDKInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSDKInterface.h; sourceTree = "<group>"; };
+		8E7E4EBB17E829220013428E /* YuMeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeTypes.h; sourceTree = "<group>"; };
+		8E7E4EBC17E829220013428E /* YuMeVideoPlayerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeVideoPlayerInterface.h; sourceTree = "<group>"; };
+		8E7E4EC017E8292E0013428E /* libYuMeSurvey.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYuMeSurvey.a; sourceTree = "<group>"; };
+		8E7E4EC217E8297C0013428E /* YuMeSdkUnitTestInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestInit.h; sourceTree = "<group>"; };
+		8E7E4EC317E8297C0013428E /* YuMeSdkUnitTestInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestInit.m; sourceTree = "<group>"; };
+		8E7E4EC417E8297C0013428E /* YuMeSdkUnitTestInitAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestInitAd.h; sourceTree = "<group>"; };
+		8E7E4EC517E8297C0013428E /* YuMeSdkUnitTestInitAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestInitAd.m; sourceTree = "<group>"; };
+		8E7E4EC617E8297C0013428E /* YuMeSdkUnitTestModifyParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestModifyParams.h; sourceTree = "<group>"; };
+		8E7E4EC717E8297C0013428E /* YuMeSdkUnitTestModifyParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestModifyParams.m; sourceTree = "<group>"; };
+		8E7E4EC817E8297C0013428E /* YuMeSdkUnitUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitUtils.h; sourceTree = "<group>"; };
+		8E7E4EC917E8297C0013428E /* YuMeSdkUnitUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitUtils.m; sourceTree = "<group>"; };
+		8E85B23817FA9E9900A8A643 /* result.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = result.html; sourceTree = "<group>"; };
+		8EB8728317E96BD300F0DAA8 /* YuMeSdkUnitTestGetParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestGetParams.h; sourceTree = "<group>"; };
+		8EB8728417E96BD300F0DAA8 /* YuMeSdkUnitTestGetParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestGetParams.m; sourceTree = "<group>"; };
+		8EB8728817E9705C00F0DAA8 /* YuMeSdkUnitTestDeInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestDeInit.h; sourceTree = "<group>"; };
+		8EB8728917E9705C00F0DAA8 /* YuMeSdkUnitTestDeInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestDeInit.m; sourceTree = "<group>"; };
+		8EB8728C17E970E800F0DAA8 /* YuMeSdkUnitTestShowAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestShowAd.h; sourceTree = "<group>"; };
+		8EB8728D17E970E800F0DAA8 /* YuMeSdkUnitTestShowAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestShowAd.m; sourceTree = "<group>"; };
+		8EB8729017E9718200F0DAA8 /* YuMeSdkUnitTestStartAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestStartAd.h; sourceTree = "<group>"; };
+		8EB8729117E9718200F0DAA8 /* YuMeSdkUnitTestStartAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestStartAd.m; sourceTree = "<group>"; };
+		8EB8729417E9722900F0DAA8 /* YuMeSdkUnitTestStopAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestStopAd.h; sourceTree = "<group>"; };
+		8EB8729517E9722A00F0DAA8 /* YuMeSdkUnitTestStopAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestStopAd.m; sourceTree = "<group>"; };
+		8EB8729817E972CB00F0DAA8 /* YuMeSdkUnitTestGetVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestGetVersion.h; sourceTree = "<group>"; };
+		8EB8729917E972CB00F0DAA8 /* YuMeSdkUnitTestGetVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestGetVersion.m; sourceTree = "<group>"; };
+		8EB8729C17E973C800F0DAA8 /* YuMeSdkUnitTestSetCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestSetCache.h; sourceTree = "<group>"; };
+		8EB8729D17E973C900F0DAA8 /* YuMeSdkUnitTestSetCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestSetCache.m; sourceTree = "<group>"; };
+		8EB872A117E9748400F0DAA8 /* YuMeSdkUnitTestIsCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestIsCache.h; sourceTree = "<group>"; };
+		8EB872A217E9748500F0DAA8 /* YuMeSdkUnitTestIsCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestIsCache.m; sourceTree = "<group>"; };
+		8EB872A517E974FB00F0DAA8 /* YuMeSdkUnitTestClearCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestClearCache.h; sourceTree = "<group>"; };
+		8EB872A617E974FB00F0DAA8 /* YuMeSdkUnitTestClearCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestClearCache.m; sourceTree = "<group>"; };
+		8EB872A917E9759A00F0DAA8 /* YuMeSdkUnitTestPauseDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestPauseDownload.h; sourceTree = "<group>"; };
+		8EB872AA17E9759A00F0DAA8 /* YuMeSdkUnitTestPauseDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestPauseDownload.m; sourceTree = "<group>"; };
+		8EB872AE17E975DD00F0DAA8 /* YuMeSdkUnitTestResumeDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestResumeDownload.h; sourceTree = "<group>"; };
+		8EB872AF17E975DD00F0DAA8 /* YuMeSdkUnitTestResumeDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestResumeDownload.m; sourceTree = "<group>"; };
+		8EB872B217E9768D00F0DAA8 /* YuMeSdkUnitTestAbortDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestAbortDownload.h; sourceTree = "<group>"; };
+		8EB872B317E9768D00F0DAA8 /* YuMeSdkUnitTestAbortDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestAbortDownload.m; sourceTree = "<group>"; };
+		8EB872B617E976C300F0DAA8 /* YuMeSdkUnitTestGetDownloadStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestGetDownloadStatus.h; sourceTree = "<group>"; };
+		8EB872B717E976C300F0DAA8 /* YuMeSdkUnitTestGetDownloadStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestGetDownloadStatus.m; sourceTree = "<group>"; };
+		8EB872BA17E9771E00F0DAA8 /* YuMeSdkUnitTestGetDownloadPercentage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestGetDownloadPercentage.h; sourceTree = "<group>"; };
+		8EB872BB17E9771E00F0DAA8 /* YuMeSdkUnitTestGetDownloadPercentage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestGetDownloadPercentage.m; sourceTree = "<group>"; };
+		8EB872BE17E97ADF00F0DAA8 /* YuMeSdkUnitTestClearCookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestClearCookies.h; sourceTree = "<group>"; };
+		8EB872BF17E97AE000F0DAA8 /* YuMeSdkUnitTestClearCookies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestClearCookies.m; sourceTree = "<group>"; };
+		8EB872C217E97B8000F0DAA8 /* YuMeSdkUnitTestSetAutoPrefetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestSetAutoPrefetch.h; sourceTree = "<group>"; };
+		8EB872C317E97B8000F0DAA8 /* YuMeSdkUnitTestSetAutoPrefetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestSetAutoPrefetch.m; sourceTree = "<group>"; };
+		8EB872C617E97BA600F0DAA8 /* YuMeSdkUnitTestIsAutoPrefetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestIsAutoPrefetch.h; sourceTree = "<group>"; };
+		8EB872C717E97BA700F0DAA8 /* YuMeSdkUnitTestIsAutoPrefetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestIsAutoPrefetch.m; sourceTree = "<group>"; };
+		8EB872CB17E97CAD00F0DAA8 /* YuMeSdkUnitTestSetCBToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestSetCBToggle.h; sourceTree = "<group>"; };
+		8EB872CC17E97CAE00F0DAA8 /* YuMeSdkUnitTestSetCBToggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestSetCBToggle.m; sourceTree = "<group>"; };
+		8EC1A61917F1C65C00F79C6B /* YuMeSdkUnitTestOthers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkUnitTestOthers.h; sourceTree = "<group>"; };
+		8EC1A61A17F1C65C00F79C6B /* YuMeSdkUnitTestOthers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkUnitTestOthers.m; sourceTree = "<group>"; };
+		8ED7389C180EA0EF000607EA /* YuMeSdkTestCaseInvalidWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkTestCaseInvalidWrapper.h; sourceTree = "<group>"; };
+		8ED7389D180EA0EF000607EA /* YuMeSdkTestCaseInvalidWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkTestCaseInvalidWrapper.m; sourceTree = "<group>"; };
+		8ED81F0F1806B11500164620 /* YuMeSdkTestCaseVast2Linear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkTestCaseVast2Linear.h; sourceTree = "<group>"; };
+		8ED81F101806B11500164620 /* YuMeSdkTestCaseVast2Linear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkTestCaseVast2Linear.m; sourceTree = "<group>"; };
+		8ED81F131806C9DA00164620 /* YuMeSdkTestCaseVast2NonLinear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkTestCaseVast2NonLinear.h; sourceTree = "<group>"; };
+		8ED81F141806C9DA00164620 /* YuMeSdkTestCaseVast2NonLinear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkTestCaseVast2NonLinear.m; sourceTree = "<group>"; };
+		8ED81F171806E22B00164620 /* YuMeSdkTestCaseInvalidXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeSdkTestCaseInvalidXml.h; sourceTree = "<group>"; };
+		8ED81F181806E22B00164620 /* YuMeSdkTestCaseInvalidXml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeSdkTestCaseInvalidXml.m; sourceTree = "<group>"; };
+		CD5EFB0617466DC8000765B0 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		CDAD07AF1723DB4600B770FF /* YuMeiOSTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuMeiOSTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAD07B21723DB4600B770FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDAD07B41723DB4600B770FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDAD07B61723DB4600B770FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDAD07BA1723DB4600B770FF /* YuMeiOSTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YuMeiOSTestApp-Info.plist"; sourceTree = "<group>"; };
+		CDAD07BC1723DB4600B770FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDAD07BE1723DB4600B770FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDAD07C01723DB4600B770FF /* YuMeiOSTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YuMeiOSTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		CDAD07C11723DB4600B770FF /* YuMeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuMeAppDelegate.h; sourceTree = "<group>"; };
+		CDAD07C21723DB4600B770FF /* YuMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuMeAppDelegate.m; sourceTree = "<group>"; };
+		CDAD07CA1723DB4600B770FF /* YuMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuMeViewController.h; sourceTree = "<group>"; };
+		CDAD07CB1723DB4600B770FF /* YuMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuMeViewController.m; sourceTree = "<group>"; };
+		CDAD07CE1723DB4600B770FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YuMeViewController_iPhone.xib; sourceTree = "<group>"; };
+		CDAD07D11723DB4600B770FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YuMeViewController_iPad.xib; sourceTree = "<group>"; };
+		CDAD07D81723DBF600B770FF /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		CDAD07D91723DBF600B770FF /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		CDAD07DA1723DBF600B770FF /* AdSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSizeViewController.h; sourceTree = "<group>"; };
+		CDAD07DB1723DBF600B770FF /* AdSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSizeViewController.m; sourceTree = "<group>"; };
+		CDAD07DC1723DBF600B770FF /* AdViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewDelegate.h; sourceTree = "<group>"; };
+		CDAD07DD1723DBF600B770FF /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		CDAD07DE1723DBF600B770FF /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
+		CDAD07DF1723DBF600B770FF /* AppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtils.h; sourceTree = "<group>"; };
+		CDAD07E01723DBF600B770FF /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
+		CDAD07E21723DBF600B770FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CDAD07E31723DBF600B770FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CDAD07E41723DBF600B770FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CDAD07E51723DBF600B770FF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CDAD07E61723DBF600B770FF /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57x57.png; sourceTree = "<group>"; };
+		CDAD07E71723DBF600B770FF /* one.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = one.m4v; sourceTree = "<group>"; };
+		CDAD07E81723DBF600B770FF /* two.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = two.m4v; sourceTree = "<group>"; };
+		CDAD07E91723DBF600B770FF /* yume_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yume_logo.png; sourceTree = "<group>"; };
+		CDAD07EA1723DBF600B770FF /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		CDAD07EB1723DBF600B770FF /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		CDAD07EC1723DBF600B770FF /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		CDAD07ED1723DBF600B770FF /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		CDAD07EE1723DBF600B770FF /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		CDAD07EF1723DBF600B770FF /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		CDAD07F01723DBF600B770FF /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		CDAD07F11723DBF600B770FF /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		CDAD07F21723DBF600B770FF /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		CDAD07F31723DBF600B770FF /* VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		CDAD07F41723DBF600B770FF /* YuMeInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuMeInterface.h; sourceTree = "<group>"; };
+		CDAD07F51723DBF600B770FF /* YuMeInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuMeInterface.m; sourceTree = "<group>"; };
+		CDAD08091723DC3400B770FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutView.xib; sourceTree = "<group>"; };
+		CDAD080B1723DC3400B770FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AdSizeViewController.xib; sourceTree = "<group>"; };
+		CDAD080D1723DC3400B770FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DownloadViewController.xib; sourceTree = "<group>"; };
+		CDAD080F1723DC3400B770FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LogViewController.xib; sourceTree = "<group>"; };
+		CDAD08171723DC6200B770FF /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		CDAD08211723DD0100B770FF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CDAD08231723DD0900B770FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDAD08251723DD1100B770FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDAD08271723DD2900B770FF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CDAD08291723DD3000B770FF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CDAD082B1723DD4800B770FF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CDAD082D1723DD5800B770FF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CDAD082F1723DD5F00B770FF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7E4E9617E8276C0013428E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7E4EE017E82BCC0013428E /* MediaPlayer.framework in Frameworks */,
+				8E7E4E9C17E8276C0013428E /* Foundation.framework in Frameworks */,
+				8E7E4EE217E82BDE0013428E /* MobileCoreServices.framework in Frameworks */,
+				8E627E6818113FB100D56A81 /* GHUnitIOS.framework in Frameworks */,
+				8E7E4EE117E82BDC0013428E /* CFNetwork.framework in Frameworks */,
+				8E7E4EE517E82BE50013428E /* SystemConfiguration.framework in Frameworks */,
+				8E7E4EE317E82BE00013428E /* libz.dylib in Frameworks */,
+				8E7E4EE417E82BE30013428E /* libxml2.dylib in Frameworks */,
+				8E7E4EEA17E82C0D0013428E /* libYuMeSurvey.a in Frameworks */,
+				8E7E4EE917E82C0A0013428E /* libical.a in Frameworks */,
+				8E7E4EE817E82C080013428E /* libYuMeSDK.a in Frameworks */,
+				8E7E4EE617E82BE70013428E /* QuartzCore.framework in Frameworks */,
+				8E7E4E9B17E8276C0013428E /* UIKit.framework in Frameworks */,
+				8E7E4EE717E82BE90013428E /* CoreTelephony.framework in Frameworks */,
+				8E7E4E9D17E8276C0013428E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAD07AC1723DB4600B770FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAD08301723DD5F00B770FF /* MediaPlayer.framework in Frameworks */,
+				CDAD082E1723DD5800B770FF /* CFNetwork.framework in Frameworks */,
+				CDAD07B71723DB4600B770FF /* CoreGraphics.framework in Frameworks */,
+				CDAD082C1723DD4800B770FF /* MobileCoreServices.framework in Frameworks */,
+				CDAD082A1723DD3000B770FF /* libz.dylib in Frameworks */,
+				CDAD08281723DD2900B770FF /* libxml2.dylib in Frameworks */,
+				CDAD08261723DD1100B770FF /* SystemConfiguration.framework in Frameworks */,
+				CDAD08241723DD0900B770FF /* QuartzCore.framework in Frameworks */,
+				CDAD08221723DD0100B770FF /* CoreTelephony.framework in Frameworks */,
+				CDAD07B31723DB4600B770FF /* UIKit.framework in Frameworks */,
+				CDAD07B51723DB4600B770FF /* Foundation.framework in Frameworks */,
+				8E7E4EB517E827BE0013428E /* GHUnitIOS.framework in Frameworks */,
+				8E7E4EBD17E829220013428E /* libical.a in Frameworks */,
+				8E7E4EBE17E829220013428E /* libYuMeSDK.a in Frameworks */,
+				8E7E4EC117E8292E0013428E /* libYuMeSurvey.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF267311723ED22003849E4 /* libYuMeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E4EB717E829220013428E /* ical.h */,
+				8E7E4EB817E829220013428E /* libical.a */,
+				8E7E4EB917E829220013428E /* libYuMeSDK.a */,
+				8E7E4EBA17E829220013428E /* YuMeSDKInterface.h */,
+				8E7E4EBB17E829220013428E /* YuMeTypes.h */,
+				8E7E4EBC17E829220013428E /* YuMeVideoPlayerInterface.h */,
+			);
+			path = libYuMeSDK;
+			sourceTree = "<group>";
+		};
+		1BF2673A172443C5003849E4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CDAD07C11723DB4600B770FF /* YuMeAppDelegate.h */,
+				CDAD07C21723DB4600B770FF /* YuMeAppDelegate.m */,
+				CDAD07CA1723DB4600B770FF /* YuMeViewController.h */,
+				CDAD07CB1723DB4600B770FF /* YuMeViewController.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8D5B1F9617D7187A002F8F7A /* AppVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B1F8F17D7185E002F8F7A /* VideoPlayerController.h */,
+				8D5B1F9017D7185F002F8F7A /* VideoPlayerController.m */,
+				8D5B1F9117D71860002F8F7A /* YuMeMPlayerController.h */,
+				8D5B1F9217D71860002F8F7A /* YuMeMPlayerController.m */,
+			);
+			name = AppVideoPlayer;
+			sourceTree = "<group>";
+		};
+		8E7E4E9E17E8276C0013428E /* YuMeSDKUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E4ED117E829B60013428E /* yume_Init */,
+				8E7E4ECF17E8298C0013428E /* yume_ModifyParams */,
+				8EB8728717E96BD800F0DAA8 /* yume_GetParams */,
+				8EB8728B17E9706400F0DAA8 /* yume_DeInit */,
+				8E7E4ED017E829980013428E /* yume_InitAd */,
+				8EB8728F17E970ED00F0DAA8 /* yume_ShowAd */,
+				8EB8729317E9718700F0DAA8 /* yume_StartAd */,
+				8EB8729717E9723700F0DAA8 /* yume_StopAd */,
+				8EB8729B17E972CF00F0DAA8 /* yume_GetVersion */,
+				8EB8729F17E973CE00F0DAA8 /* yume_Cache */,
+				8EB872CA17E97BD200F0DAA8 /* yume_AutoPrefetch */,
+				8EB872AC17E975A000F0DAA8 /* yume_Download */,
+				8EB872CE17E97CB300F0DAA8 /* yume_ControlBar */,
+				8EC1A61C17F1C66200F79C6B /* yume_General */,
+				8ED81F121806B11A00164620 /* yume_Vast2Linear */,
+				8ED81F161806C9DE00164620 /* yume_Vast2NonLinear */,
+				8ED81F1A1806E23000164620 /* yume_InvalidXml */,
+				8ED7389F180EA0F4000607EA /* yume_InvalidWrapper */,
+				8E7E4ECE17E829820013428E /* Utils */,
+				8E7E4E9F17E8276C0013428E /* Supporting Files */,
+			);
+			path = YuMeSDKUnitTests;
+			sourceTree = "<group>";
+		};
+		8E7E4E9F17E8276C0013428E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E4EA017E8276C0013428E /* YuMeSDKUnitTests-Info.plist */,
+				8E7E4EA117E8276C0013428E /* InfoPlist.strings */,
+				8E7E4EA417E8276C0013428E /* main.m */,
+				8E7E4EA617E8276C0013428E /* YuMeSDKUnitTests-Prefix.pch */,
+				8E7E4EAA17E8276C0013428E /* Default.png */,
+				8E7E4EAC17E8276C0013428E /* Default@2x.png */,
+				8E7E4EAE17E8276C0013428E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E7E4EBF17E8292E0013428E /* libYuMeSurvey */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E4EC017E8292E0013428E /* libYuMeSurvey.a */,
+			);
+			path = libYuMeSurvey;
+			sourceTree = "<group>";
+		};
+		8E7E4ECE17E829820013428E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E621724181017D10080DDB0 /* YuMeSDKTestData.csv */,
+				8E85B23817FA9E9900A8A643 /* result.html */,
+				8E7E4EC817E8297C0013428E /* YuMeSdkUnitUtils.h */,
+				8E7E4EC917E8297C0013428E /* YuMeSdkUnitUtils.m */,
+				8E5BB59317F046C600956F58 /* YuMeSdkConstant.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8E7E4ECF17E8298C0013428E /* yume_ModifyParams */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E4EC617E8297C0013428E /* YuMeSdkUnitTestModifyParams.h */,
+				8E7E4EC717E8297C0013428E /* YuMeSdkUnitTestModifyParams.m */,
+			);
+			name = yume_ModifyParams;
+			sourceTree = "<group>";
+		};
+		8E7E4ED017E829980013428E /* yume_InitAd */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E4EC417E8297C0013428E /* YuMeSdkUnitTestInitAd.h */,
+				8E7E4EC517E8297C0013428E /* YuMeSdkUnitTestInitAd.m */,
+			);
+			name = yume_InitAd;
+			sourceTree = "<group>";
+		};
+		8E7E4ED117E829B60013428E /* yume_Init */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E4EC217E8297C0013428E /* YuMeSdkUnitTestInit.h */,
+				8E7E4EC317E8297C0013428E /* YuMeSdkUnitTestInit.m */,
+			);
+			name = yume_Init;
+			sourceTree = "<group>";
+		};
+		8EB8728717E96BD800F0DAA8 /* yume_GetParams */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8728317E96BD300F0DAA8 /* YuMeSdkUnitTestGetParams.h */,
+				8EB8728417E96BD300F0DAA8 /* YuMeSdkUnitTestGetParams.m */,
+			);
+			name = yume_GetParams;
+			sourceTree = "<group>";
+		};
+		8EB8728B17E9706400F0DAA8 /* yume_DeInit */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8728817E9705C00F0DAA8 /* YuMeSdkUnitTestDeInit.h */,
+				8EB8728917E9705C00F0DAA8 /* YuMeSdkUnitTestDeInit.m */,
+			);
+			name = yume_DeInit;
+			sourceTree = "<group>";
+		};
+		8EB8728F17E970ED00F0DAA8 /* yume_ShowAd */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8728C17E970E800F0DAA8 /* YuMeSdkUnitTestShowAd.h */,
+				8EB8728D17E970E800F0DAA8 /* YuMeSdkUnitTestShowAd.m */,
+			);
+			name = yume_ShowAd;
+			sourceTree = "<group>";
+		};
+		8EB8729317E9718700F0DAA8 /* yume_StartAd */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8729017E9718200F0DAA8 /* YuMeSdkUnitTestStartAd.h */,
+				8EB8729117E9718200F0DAA8 /* YuMeSdkUnitTestStartAd.m */,
+			);
+			name = yume_StartAd;
+			sourceTree = "<group>";
+		};
+		8EB8729717E9723700F0DAA8 /* yume_StopAd */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8729417E9722900F0DAA8 /* YuMeSdkUnitTestStopAd.h */,
+				8EB8729517E9722A00F0DAA8 /* YuMeSdkUnitTestStopAd.m */,
+			);
+			name = yume_StopAd;
+			sourceTree = "<group>";
+		};
+		8EB8729B17E972CF00F0DAA8 /* yume_GetVersion */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8729817E972CB00F0DAA8 /* YuMeSdkUnitTestGetVersion.h */,
+				8EB8729917E972CB00F0DAA8 /* YuMeSdkUnitTestGetVersion.m */,
+			);
+			name = yume_GetVersion;
+			sourceTree = "<group>";
+		};
+		8EB8729F17E973CE00F0DAA8 /* yume_Cache */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872A017E973DE00F0DAA8 /* SetCacheEnabled */,
+				8EB872A417E9748A00F0DAA8 /* IsCacheEnabled */,
+				8EB872A817E9750000F0DAA8 /* ClearCache */,
+				8EB872C117E97AE500F0DAA8 /* ClearCookies */,
+			);
+			name = yume_Cache;
+			sourceTree = "<group>";
+		};
+		8EB872A017E973DE00F0DAA8 /* SetCacheEnabled */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8729C17E973C800F0DAA8 /* YuMeSdkUnitTestSetCache.h */,
+				8EB8729D17E973C900F0DAA8 /* YuMeSdkUnitTestSetCache.m */,
+			);
+			name = SetCacheEnabled;
+			sourceTree = "<group>";
+		};
+		8EB872A417E9748A00F0DAA8 /* IsCacheEnabled */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872A117E9748400F0DAA8 /* YuMeSdkUnitTestIsCache.h */,
+				8EB872A217E9748500F0DAA8 /* YuMeSdkUnitTestIsCache.m */,
+			);
+			name = IsCacheEnabled;
+			sourceTree = "<group>";
+		};
+		8EB872A817E9750000F0DAA8 /* ClearCache */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872A517E974FB00F0DAA8 /* YuMeSdkUnitTestClearCache.h */,
+				8EB872A617E974FB00F0DAA8 /* YuMeSdkUnitTestClearCache.m */,
+			);
+			name = ClearCache;
+			sourceTree = "<group>";
+		};
+		8EB872AC17E975A000F0DAA8 /* yume_Download */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872AD17E975A900F0DAA8 /* PauseDownload */,
+				8EB872B117E975E200F0DAA8 /* ResumeDownload */,
+				8EB872B517E9769100F0DAA8 /* AbortDownload */,
+				8EB872B917E976C700F0DAA8 /* GetDownloadStatus */,
+				8EB872BD17E9772400F0DAA8 /* GetDownloadPercentage */,
+			);
+			name = yume_Download;
+			sourceTree = "<group>";
+		};
+		8EB872AD17E975A900F0DAA8 /* PauseDownload */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872A917E9759A00F0DAA8 /* YuMeSdkUnitTestPauseDownload.h */,
+				8EB872AA17E9759A00F0DAA8 /* YuMeSdkUnitTestPauseDownload.m */,
+			);
+			name = PauseDownload;
+			sourceTree = "<group>";
+		};
+		8EB872B117E975E200F0DAA8 /* ResumeDownload */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872AE17E975DD00F0DAA8 /* YuMeSdkUnitTestResumeDownload.h */,
+				8EB872AF17E975DD00F0DAA8 /* YuMeSdkUnitTestResumeDownload.m */,
+			);
+			name = ResumeDownload;
+			sourceTree = "<group>";
+		};
+		8EB872B517E9769100F0DAA8 /* AbortDownload */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872B217E9768D00F0DAA8 /* YuMeSdkUnitTestAbortDownload.h */,
+				8EB872B317E9768D00F0DAA8 /* YuMeSdkUnitTestAbortDownload.m */,
+			);
+			name = AbortDownload;
+			sourceTree = "<group>";
+		};
+		8EB872B917E976C700F0DAA8 /* GetDownloadStatus */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872B617E976C300F0DAA8 /* YuMeSdkUnitTestGetDownloadStatus.h */,
+				8EB872B717E976C300F0DAA8 /* YuMeSdkUnitTestGetDownloadStatus.m */,
+			);
+			name = GetDownloadStatus;
+			sourceTree = "<group>";
+		};
+		8EB872BD17E9772400F0DAA8 /* GetDownloadPercentage */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872BA17E9771E00F0DAA8 /* YuMeSdkUnitTestGetDownloadPercentage.h */,
+				8EB872BB17E9771E00F0DAA8 /* YuMeSdkUnitTestGetDownloadPercentage.m */,
+			);
+			name = GetDownloadPercentage;
+			sourceTree = "<group>";
+		};
+		8EB872C117E97AE500F0DAA8 /* ClearCookies */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872BE17E97ADF00F0DAA8 /* YuMeSdkUnitTestClearCookies.h */,
+				8EB872BF17E97AE000F0DAA8 /* YuMeSdkUnitTestClearCookies.m */,
+			);
+			name = ClearCookies;
+			sourceTree = "<group>";
+		};
+		8EB872C517E97B8500F0DAA8 /* SetAutoPrefetch */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872C217E97B8000F0DAA8 /* YuMeSdkUnitTestSetAutoPrefetch.h */,
+				8EB872C317E97B8000F0DAA8 /* YuMeSdkUnitTestSetAutoPrefetch.m */,
+			);
+			name = SetAutoPrefetch;
+			sourceTree = "<group>";
+		};
+		8EB872C917E97BC000F0DAA8 /* IsAutoPrefetch */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872C617E97BA600F0DAA8 /* YuMeSdkUnitTestIsAutoPrefetch.h */,
+				8EB872C717E97BA700F0DAA8 /* YuMeSdkUnitTestIsAutoPrefetch.m */,
+			);
+			name = IsAutoPrefetch;
+			sourceTree = "<group>";
+		};
+		8EB872CA17E97BD200F0DAA8 /* yume_AutoPrefetch */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872C517E97B8500F0DAA8 /* SetAutoPrefetch */,
+				8EB872C917E97BC000F0DAA8 /* IsAutoPrefetch */,
+			);
+			name = yume_AutoPrefetch;
+			sourceTree = "<group>";
+		};
+		8EB872CE17E97CB300F0DAA8 /* yume_ControlBar */ = {
+			isa = PBXGroup;
+			children = (
+				8EB872CB17E97CAD00F0DAA8 /* YuMeSdkUnitTestSetCBToggle.h */,
+				8EB872CC17E97CAE00F0DAA8 /* YuMeSdkUnitTestSetCBToggle.m */,
+			);
+			name = yume_ControlBar;
+			sourceTree = "<group>";
+		};
+		8EC1A61C17F1C66200F79C6B /* yume_General */ = {
+			isa = PBXGroup;
+			children = (
+				8EC1A61917F1C65C00F79C6B /* YuMeSdkUnitTestOthers.h */,
+				8EC1A61A17F1C65C00F79C6B /* YuMeSdkUnitTestOthers.m */,
+			);
+			name = yume_General;
+			sourceTree = "<group>";
+		};
+		8ED7389F180EA0F4000607EA /* yume_InvalidWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				8ED7389C180EA0EF000607EA /* YuMeSdkTestCaseInvalidWrapper.h */,
+				8ED7389D180EA0EF000607EA /* YuMeSdkTestCaseInvalidWrapper.m */,
+			);
+			name = yume_InvalidWrapper;
+			sourceTree = "<group>";
+		};
+		8ED81F121806B11A00164620 /* yume_Vast2Linear */ = {
+			isa = PBXGroup;
+			children = (
+				8ED81F0F1806B11500164620 /* YuMeSdkTestCaseVast2Linear.h */,
+				8ED81F101806B11500164620 /* YuMeSdkTestCaseVast2Linear.m */,
+			);
+			name = yume_Vast2Linear;
+			sourceTree = "<group>";
+		};
+		8ED81F161806C9DE00164620 /* yume_Vast2NonLinear */ = {
+			isa = PBXGroup;
+			children = (
+				8ED81F131806C9DA00164620 /* YuMeSdkTestCaseVast2NonLinear.h */,
+				8ED81F141806C9DA00164620 /* YuMeSdkTestCaseVast2NonLinear.m */,
+			);
+			name = yume_Vast2NonLinear;
+			sourceTree = "<group>";
+		};
+		8ED81F1A1806E23000164620 /* yume_InvalidXml */ = {
+			isa = PBXGroup;
+			children = (
+				8ED81F171806E22B00164620 /* YuMeSdkTestCaseInvalidXml.h */,
+				8ED81F181806E22B00164620 /* YuMeSdkTestCaseInvalidXml.m */,
+			);
+			name = yume_InvalidXml;
+			sourceTree = "<group>";
+		};
+		CDAD07A61723DB4600B770FF = {
+			isa = PBXGroup;
+			children = (
+				8E7E4EBF17E8292E0013428E /* libYuMeSurvey */,
+				1BF267311723ED22003849E4 /* libYuMeSDK */,
+				CDAD07B81723DB4600B770FF /* YuMeiOSTestApp */,
+				CDAD07E11723DBF600B770FF /* Assets */,
+				8E7E4E9E17E8276C0013428E /* YuMeSDKUnitTests */,
+				CDAD07B11723DB4600B770FF /* Frameworks */,
+				CDAD07B01723DB4600B770FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDAD07B01723DB4600B770FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDAD07AF1723DB4600B770FF /* YuMeiOSTestApp.app */,
+				8E7E4E9917E8276C0013428E /* YuMeSDKUnitTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDAD07B11723DB4600B770FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E4EB417E827BE0013428E /* GHUnitIOS.framework */,
+				CDAD082F1723DD5F00B770FF /* MediaPlayer.framework */,
+				CDAD082D1723DD5800B770FF /* CFNetwork.framework */,
+				CDAD082B1723DD4800B770FF /* MobileCoreServices.framework */,
+				CDAD08291723DD3000B770FF /* libz.dylib */,
+				CDAD08271723DD2900B770FF /* libxml2.dylib */,
+				CDAD08251723DD1100B770FF /* SystemConfiguration.framework */,
+				CDAD08231723DD0900B770FF /* QuartzCore.framework */,
+				CDAD08211723DD0100B770FF /* CoreTelephony.framework */,
+				CDAD07B21723DB4600B770FF /* UIKit.framework */,
+				CDAD07B41723DB4600B770FF /* Foundation.framework */,
+				CDAD07B61723DB4600B770FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDAD07B81723DB4600B770FF /* YuMeiOSTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B1F9617D7187A002F8F7A /* AppVideoPlayer */,
+				CDAD07D81723DBF600B770FF /* AboutViewController.h */,
+				CDAD07D91723DBF600B770FF /* AboutViewController.m */,
+				CDAD07DA1723DBF600B770FF /* AdSizeViewController.h */,
+				CDAD07DB1723DBF600B770FF /* AdSizeViewController.m */,
+				CDAD07DC1723DBF600B770FF /* AdViewDelegate.h */,
+				CDAD07DD1723DBF600B770FF /* AppSettings.h */,
+				CDAD07DE1723DBF600B770FF /* AppSettings.m */,
+				CDAD07DF1723DBF600B770FF /* AppUtils.h */,
+				CDAD07E01723DBF600B770FF /* AppUtils.m */,
+				CDAD07EA1723DBF600B770FF /* DownloadViewController.h */,
+				CDAD07EB1723DBF600B770FF /* DownloadViewController.m */,
+				CDAD07EC1723DBF600B770FF /* LogViewController.h */,
+				CDAD07ED1723DBF600B770FF /* LogViewController.m */,
+				CDAD07EE1723DBF600B770FF /* SettingsViewController.h */,
+				CDAD07EF1723DBF600B770FF /* SettingsViewController.m */,
+				CDAD07F01723DBF600B770FF /* Toast.h */,
+				CDAD07F11723DBF600B770FF /* Toast.m */,
+				CDAD07F21723DBF600B770FF /* VideoView.h */,
+				CDAD07F31723DBF600B770FF /* VideoView.m */,
+				CDAD07F41723DBF600B770FF /* YuMeInterface.h */,
+				CDAD07F51723DBF600B770FF /* YuMeInterface.m */,
+				1BF2673A172443C5003849E4 /* AppDelegate */,
+				CDAD07B91723DB4600B770FF /* Supporting Files */,
+			);
+			path = YuMeiOSTestApp;
+			sourceTree = "<group>";
+		};
+		CDAD07B91723DB4600B770FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD5EFB0617466DC8000765B0 /* SettingsViewController.xib */,
+				CDAD08081723DC3400B770FF /* AboutView.xib */,
+				CDAD07CD1723DB4600B770FF /* YuMeViewController_iPhone.xib */,
+				CDAD07D01723DB4600B770FF /* YuMeViewController_iPad.xib */,
+				CDAD080A1723DC3400B770FF /* AdSizeViewController.xib */,
+				CDAD080C1723DC3400B770FF /* DownloadViewController.xib */,
+				CDAD080E1723DC3400B770FF /* LogViewController.xib */,
+				CDAD07BA1723DB4600B770FF /* YuMeiOSTestApp-Info.plist */,
+				CDAD07BB1723DB4600B770FF /* InfoPlist.strings */,
+				CDAD07BE1723DB4600B770FF /* main.m */,
+				CDAD07C01723DB4600B770FF /* YuMeiOSTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDAD07E11723DBF600B770FF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CDAD08171723DC6200B770FF /* info.png */,
+				CDAD07E21723DBF600B770FF /* Default-568h@2x.png */,
+				CDAD07E31723DBF600B770FF /* Default.png */,
+				CDAD07E41723DBF600B770FF /* Default@2x.png */,
+				CDAD07E51723DBF600B770FF /* icon.png */,
+				CDAD07E61723DBF600B770FF /* icon_57x57.png */,
+				CDAD07E71723DBF600B770FF /* one.m4v */,
+				CDAD07E81723DBF600B770FF /* two.m4v */,
+				CDAD07E91723DBF600B770FF /* yume_logo.png */,
+			);
+			name = Assets;
+			path = YuMeiOSTestApp/Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7E4E9817E8276C0013428E /* YuMeSDKUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7E4EB217E8276C0013428E /* Build configuration list for PBXNativeTarget "YuMeSDKUnitTests" */;
+			buildPhases = (
+				8E7E4E9517E8276C0013428E /* Sources */,
+				8E7E4E9617E8276C0013428E /* Frameworks */,
+				8E7E4E9717E8276C0013428E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuMeSDKUnitTests;
+			productName = YuMeSDKUnitTests;
+			productReference = 8E7E4E9917E8276C0013428E /* YuMeSDKUnitTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDAD07AE1723DB4600B770FF /* YuMeiOSTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAD07D51723DB4600B770FF /* Build configuration list for PBXNativeTarget "YuMeiOSTestApp" */;
+			buildPhases = (
+				CDAD07AB1723DB4600B770FF /* Sources */,
+				CDAD07AC1723DB4600B770FF /* Frameworks */,
+				CDAD07AD1723DB4600B770FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuMeiOSTestApp;
+			productName = YuMeiOSTestApp;
+			productReference = CDAD07AF1723DB4600B770FF /* YuMeiOSTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDAD07A71723DB4600B770FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YuMe;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Copyright (c) 2013 YuMe Advertising Pvt. Ltd.,.";
+			};
+			buildConfigurationList = CDAD07AA1723DB4600B770FF /* Build configuration list for PBXProject "YuMeiOSTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDAD07A61723DB4600B770FF;
+			productRefGroup = CDAD07B01723DB4600B770FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDAD07AE1723DB4600B770FF /* YuMeiOSTestApp */,
+				8E7E4E9817E8276C0013428E /* YuMeSDKUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7E4E9717E8276C0013428E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7E4EA317E8276C0013428E /* InfoPlist.strings in Resources */,
+				8E7E4EAB17E8276C0013428E /* Default.png in Resources */,
+				8E7E4EAD17E8276C0013428E /* Default@2x.png in Resources */,
+				8E621725181017D10080DDB0 /* YuMeSDKTestData.csv in Resources */,
+				8E85B23917FA9E9900A8A643 /* result.html in Resources */,
+				8E7E4EAF17E8276C0013428E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAD07AD1723DB4600B770FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAD07BD1723DB4600B770FF /* InfoPlist.strings in Resources */,
+				CDAD07CF1723DB4600B770FF /* YuMeViewController_iPhone.xib in Resources */,
+				CDAD07D21723DB4600B770FF /* YuMeViewController_iPad.xib in Resources */,
+				CDAD07FA1723DBF600B770FF /* Default-568h@2x.png in Resources */,
+				CDAD07FB1723DBF600B770FF /* Default.png in Resources */,
+				CDAD07FC1723DBF600B770FF /* Default@2x.png in Resources */,
+				CDAD07FD1723DBF600B770FF /* icon.png in Resources */,
+				CDAD07FE1723DBF600B770FF /* icon_57x57.png in Resources */,
+				CDAD07FF1723DBF600B770FF /* one.m4v in Resources */,
+				CDAD08001723DBF600B770FF /* two.m4v in Resources */,
+				CDAD08011723DBF600B770FF /* yume_logo.png in Resources */,
+				CDAD08121723DC3400B770FF /* AboutView.xib in Resources */,
+				CDAD08131723DC3400B770FF /* AdSizeViewController.xib in Resources */,
+				CDAD08141723DC3400B770FF /* DownloadViewController.xib in Resources */,
+				CDAD08151723DC3400B770FF /* LogViewController.xib in Resources */,
+				CDAD08181723DC6200B770FF /* info.png in Resources */,
+				CD5EFB0717466DC8000765B0 /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7E4E9517E8276C0013428E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7E4ED217E82AE50013428E /* VideoPlayerController.m in Sources */,
+				8E7E4ED317E82AE50013428E /* YuMeMPlayerController.m in Sources */,
+				8E7E4ED417E82AE50013428E /* AboutViewController.m in Sources */,
+				8E7E4ED517E82AE50013428E /* AdSizeViewController.m in Sources */,
+				8E7E4ED617E82AE50013428E /* AppSettings.m in Sources */,
+				8E7E4ED717E82AE50013428E /* AppUtils.m in Sources */,
+				8ED7389E180EA0EF000607EA /* YuMeSdkTestCaseInvalidWrapper.m in Sources */,
+				8ED81F151806C9DA00164620 /* YuMeSdkTestCaseVast2NonLinear.m in Sources */,
+				8E7E4ED817E82AE50013428E /* DownloadViewController.m in Sources */,
+				8E7E4ED917E82AE50013428E /* LogViewController.m in Sources */,
+				8E7E4EDA17E82AE50013428E /* SettingsViewController.m in Sources */,
+				8E7E4EDB17E82AE50013428E /* Toast.m in Sources */,
+				8E7E4EDC17E82AE50013428E /* VideoView.m in Sources */,
+				8EC1A61B17F1C65C00F79C6B /* YuMeSdkUnitTestOthers.m in Sources */,
+				8ED81F111806B11600164620 /* YuMeSdkTestCaseVast2Linear.m in Sources */,
+				8E7E4EDD17E82AE50013428E /* YuMeInterface.m in Sources */,
+				8E7E4EDE17E82AE50013428E /* YuMeAppDelegate.m in Sources */,
+				8E7E4EDF17E82AE50013428E /* YuMeViewController.m in Sources */,
+				8E7E4EA517E8276C0013428E /* main.m in Sources */,
+				8E7E4ECA17E8297C0013428E /* YuMeSdkUnitTestInit.m in Sources */,
+				8E7E4ECB17E8297C0013428E /* YuMeSdkUnitTestInitAd.m in Sources */,
+				8E7E4ECC17E8297C0013428E /* YuMeSdkUnitTestModifyParams.m in Sources */,
+				8E7E4ECD17E8297C0013428E /* YuMeSdkUnitUtils.m in Sources */,
+				8EB8728517E96BD300F0DAA8 /* YuMeSdkUnitTestGetParams.m in Sources */,
+				8EB8728A17E9705D00F0DAA8 /* YuMeSdkUnitTestDeInit.m in Sources */,
+				8EB8728E17E970E800F0DAA8 /* YuMeSdkUnitTestShowAd.m in Sources */,
+				8EB8729217E9718200F0DAA8 /* YuMeSdkUnitTestStartAd.m in Sources */,
+				8EB8729617E9722A00F0DAA8 /* YuMeSdkUnitTestStopAd.m in Sources */,
+				8EB8729A17E972CB00F0DAA8 /* YuMeSdkUnitTestGetVersion.m in Sources */,
+				8EB8729E17E973C900F0DAA8 /* YuMeSdkUnitTestSetCache.m in Sources */,
+				8EB872A317E9748500F0DAA8 /* YuMeSdkUnitTestIsCache.m in Sources */,
+				8EB872A717E974FC00F0DAA8 /* YuMeSdkUnitTestClearCache.m in Sources */,
+				8EB872AB17E9759B00F0DAA8 /* YuMeSdkUnitTestPauseDownload.m in Sources */,
+				8EB872B017E975DE00F0DAA8 /* YuMeSdkUnitTestResumeDownload.m in Sources */,
+				8EB872B417E9768D00F0DAA8 /* YuMeSdkUnitTestAbortDownload.m in Sources */,
+				8EB872B817E976C400F0DAA8 /* YuMeSdkUnitTestGetDownloadStatus.m in Sources */,
+				8EB872BC17E9771F00F0DAA8 /* YuMeSdkUnitTestGetDownloadPercentage.m in Sources */,
+				8ED81F191806E22B00164620 /* YuMeSdkTestCaseInvalidXml.m in Sources */,
+				8EB872C017E97AE100F0DAA8 /* YuMeSdkUnitTestClearCookies.m in Sources */,
+				8EB872C417E97B8100F0DAA8 /* YuMeSdkUnitTestSetAutoPrefetch.m in Sources */,
+				8EB872C817E97BA800F0DAA8 /* YuMeSdkUnitTestIsAutoPrefetch.m in Sources */,
+				8EB872CD17E97CB000F0DAA8 /* YuMeSdkUnitTestSetCBToggle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAD07AB1723DB4600B770FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAD07BF1723DB4600B770FF /* main.m in Sources */,
+				CDAD07C31723DB4600B770FF /* YuMeAppDelegate.m in Sources */,
+				CDAD07CC1723DB4600B770FF /* YuMeViewController.m in Sources */,
+				CDAD07F61723DBF600B770FF /* AboutViewController.m in Sources */,
+				CDAD07F71723DBF600B770FF /* AdSizeViewController.m in Sources */,
+				CDAD07F81723DBF600B770FF /* AppSettings.m in Sources */,
+				CDAD07F91723DBF600B770FF /* AppUtils.m in Sources */,
+				CDAD08021723DBF600B770FF /* DownloadViewController.m in Sources */,
+				CDAD08031723DBF600B770FF /* LogViewController.m in Sources */,
+				CDAD08041723DBF600B770FF /* SettingsViewController.m in Sources */,
+				CDAD08051723DBF600B770FF /* Toast.m in Sources */,
+				CDAD08061723DBF600B770FF /* VideoView.m in Sources */,
+				CDAD08071723DBF600B770FF /* YuMeInterface.m in Sources */,
+				8D5B1F9317D71861002F8F7A /* VideoPlayerController.m in Sources */,
+				8D5B1F9417D71861002F8F7A /* YuMeMPlayerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E7E4EA117E8276C0013428E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7E4EA217E8276C0013428E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDAD07BB1723DB4600B770FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAD07BC1723DB4600B770FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDAD07CD1723DB4600B770FF /* YuMeViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAD07CE1723DB4600B770FF /* en */,
+			);
+			name = YuMeViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CDAD07D01723DB4600B770FF /* YuMeViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAD07D11723DB4600B770FF /* en */,
+			);
+			name = YuMeViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		CDAD08081723DC3400B770FF /* AboutView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAD08091723DC3400B770FF /* en */,
+			);
+			name = AboutView.xib;
+			sourceTree = "<group>";
+		};
+		CDAD080A1723DC3400B770FF /* AdSizeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAD080B1723DC3400B770FF /* en */,
+			);
+			name = AdSizeViewController.xib;
+			sourceTree = "<group>";
+		};
+		CDAD080C1723DC3400B770FF /* DownloadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAD080D1723DC3400B770FF /* en */,
+			);
+			name = DownloadViewController.xib;
+			sourceTree = "<group>";
+		};
+		CDAD080E1723DC3400B770FF /* LogViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAD080F1723DC3400B770FF /* en */,
+			);
+			name = LogViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E7E4EB017E8276C0013428E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"/Users/Bharath/Workspace/iOS/UnitTest/swdev/source/mobile-sdks/iOS/Private/TestCases/YuMeSampleTestApp",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YuMeSDKUnitTests/YuMeSDKUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "YuMeSDKUnitTests/YuMeSDKUnitTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libYuMeSDK\"",
+					"\"$(SRCROOT)/libYuMeSurvey\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "771D62B7-2154-4432-96EC-865A0DD40DE5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "771D62B7-2154-4432-96EC-865A0DD40DE5";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E7E4EB117E8276C0013428E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"/Users/Bharath/Workspace/iOS/UnitTest/swdev/source/mobile-sdks/iOS/Private/TestCases/YuMeSampleTestApp",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YuMeSDKUnitTests/YuMeSDKUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "YuMeSDKUnitTests/YuMeSDKUnitTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libYuMeSDK\"",
+					"\"$(SRCROOT)/libYuMeSurvey\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "771D62B7-2154-4432-96EC-865A0DD40DE5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "771D62B7-2154-4432-96EC-865A0DD40DE5";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CDAD07D31723DB4600B770FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "771D62B7-2154-4432-96EC-865A0DD40DE5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "771D62B7-2154-4432-96EC-865A0DD40DE5";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		CDAD07D41723DB4600B770FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "771D62B7-2154-4432-96EC-865A0DD40DE5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "771D62B7-2154-4432-96EC-865A0DD40DE5";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		CDAD07D61723DB4600B770FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YuMeiOSTestApp/YuMeiOSTestApp-Prefix.pch";
+				INFOPLIST_FILE = "YuMeiOSTestApp/YuMeiOSTestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/YuMeiOSTestApp/libYuMeSDK\"",
+					"\"$(SRCROOT)/libYuMeSDK\"",
+					"\"$(SRCROOT)/libYuMeSurvey\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "998725A3-88DC-4695-A43A-F8C6C88B3350";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "998725A3-88DC-4695-A43A-F8C6C88B3350";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDAD07D71723DB4600B770FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Kodali (567R54LS73)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YuMeiOSTestApp/YuMeiOSTestApp-Prefix.pch";
+				INFOPLIST_FILE = "YuMeiOSTestApp/YuMeiOSTestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/YuMeiOSTestApp/libYuMeSDK\"",
+					"\"$(SRCROOT)/libYuMeSDK\"",
+					"\"$(SRCROOT)/libYuMeSurvey\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "998725A3-88DC-4695-A43A-F8C6C88B3350";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "998725A3-88DC-4695-A43A-F8C6C88B3350";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7E4EB217E8276C0013428E /* Build configuration list for PBXNativeTarget "YuMeSDKUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7E4EB017E8276C0013428E /* Debug */,
+				8E7E4EB117E8276C0013428E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAD07AA1723DB4600B770FF /* Build configuration list for PBXProject "YuMeiOSTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAD07D31723DB4600B770FF /* Debug */,
+				CDAD07D41723DB4600B770FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAD07D51723DB4600B770FF /* Build configuration list for PBXNativeTarget "YuMeiOSTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAD07D61723DB4600B770FF /* Debug */,
+				CDAD07D71723DB4600B770FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDAD07A71723DB4600B770FF /* Project object */;
+}
